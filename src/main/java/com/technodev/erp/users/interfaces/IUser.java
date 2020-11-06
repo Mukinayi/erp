@@ -20,4 +20,5 @@ public interface IUser {
     List<User> findBySexe(String sexe);
     List<User> findByDatecreation(Date date);
     List<User> findByRoles(String role);
+    boolean isExist(String email, String telephone);
 }
